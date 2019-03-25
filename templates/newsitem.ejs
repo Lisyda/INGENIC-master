@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>News</title>
+    <title><%= item.title %></title>
+
+
 </head>
 <body>
 <!--INCLUDING HEADER AND NAVIGATION FROM EJS HEADER-->
@@ -22,28 +24,21 @@
 
 <!--END OF NAVIGATION BAR-->
 
-<!--NEWS ARTICLES-->
-<br/>
-<h1 class="menu">News</h1>
+<!--NEWS ITEM-->
 <br />
 <div class="container">
-    <% for (var i = 0; i < newslinks.length; i++) { %>
-        <div class="row mt-3">
-            <% for (var j = 0; j < newslinks[i].length; j++) { %>
-                <div class="col-sm">
-                    <div class="card text-center" style="width: 15rem; height:18rem;">
-                        <a href="news/<%= newslinks[i][j] %>"><img src="<%= item[i][j].image %>" class="card-img-top"
-                                                                   alt="<%= item[i][j].alttext %>"
-                                                                   style="height:10rem; overflow: hidden;"></a>
-                        <div class="card-body">
-                            <a href="news/<%= newslinks[i][j] %>"><h5 class="card-title"><%= item[i][j].title %></h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            <% } %>
-        </div>
-    <% } %>
+    <article>
+        <header>
+            <h1 class="menu"><%= item.title %></h1>
+            <br />
+            <time datetime="<%= item.datetime %>"><%= item.artdate %></time>
+        </header>
+        <figure>
+            <img src="<%= item.image %>" class="ml-4 my-4 rounded float-right" height="200" alt="<%= item.alttext %>"/>
+        </figure>
+        <%- item.text %>
+    </article>
+    <a href="javascript:history.go(-1)">Go back</a>
 </div>
 
 <!--INCLUDE FOOTER FROM EJS FOOTER-->
