@@ -53,7 +53,7 @@ var news = [
         title: 'Sample News',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
-        image: '/images/news2.jpg',
+        image: '/images/image3.jpg',
         alttext: 'Sample Alt',
         text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu purus eu ex lacinia dignissim' +
             '                efficitur ut justo. Phasellus orci nisl, euismod ac porttitor vitae, cursus sit amet ante. Praesent sit amet' +
@@ -95,7 +95,7 @@ var news = [
         title: 'Sample News',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
-        image: '/images/news1.jpg',
+        image: '/images/image1.jpg',
         alttext: 'Sample Alt',
         text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu purus eu ex lacinia dignissim' +
             '                efficitur ut justo. Phasellus orci nisl, euismod ac porttitor vitae, cursus sit amet ante. Praesent sit amet' +
@@ -123,7 +123,7 @@ var news = [
         title: 'Sample News',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
-        image: '/images/news3.jpg',
+        image: '/images/image2.jpg',
         alttext: 'Sample Alt',
         text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu purus eu ex lacinia dignissim' +
             '                efficitur ut justo. Phasellus orci nisl, euismod ac porttitor vitae, cursus sit amet ante. Praesent sit amet' +
