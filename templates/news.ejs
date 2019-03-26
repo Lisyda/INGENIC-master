@@ -32,7 +32,7 @@
             <% for (var j = 0; j < newslinks[i].length; j++) { %>
                 <div class="col-sm">
                     <div class="card text-center" style="width: 15rem; height:18rem;">
-                        <a href="news/<%= newslinks[i][j] %>"><img src="<%= item[i][j].image %>" class="card-img-top"
+                        <a href="news/<%= newslinks[i][j] %>"><img src="<%= item[i][j].image %>" id="newsimg" class="card-img-top"
                                                                    alt="<%= item[i][j].alttext %>""></a>
                         <div class="card-body">
                             <a href="news/<%= newslinks[i][j] %>"><h5 class="card-title"><%= item[i][j].title %></h5>
