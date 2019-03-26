@@ -336,9 +336,9 @@ a, a:hover {
 .dropdown {
     display: inline-block;
     position: center;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-bottom: 100px;
+    /*margin-left: 45%;*/
+    /*margin-right: 45%;*/
+    /*margin-bottom: 100px;*/
 }
 
 .dropdown-content {
