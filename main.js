@@ -191,6 +191,11 @@ app.get('/universities', function (req, res) {
     res.render('universities');
 });
 
+//CURRENT COURSES
+app.get('/courses', function (req, res) {
+    res.render('courses');
+});
+
 
 //set the server to listen on a port
 app.listen(port);
