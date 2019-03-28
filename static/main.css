@@ -8,9 +8,16 @@
     object-fit: cover;
 }
 
-/* Centres all the headers on the pages */
+/*SITE-WIDE CSS*/
+/*Centres all the headers on the pages*/
 .menu {
     text-align: center;
+}
+/*ABOUT PAGE*/
+/*Configures the size of the image on the about page*/
+#aboutImg {
+    max-width: 50%;
+    height: auto;
 }
 
 /*NAVBAR CUSTOMISATION*/
@@ -115,5 +122,9 @@ a, a:hover {
     /* Remove the borders from the menu */
     #customLink {
         border: none;
+    }
+    /*Configures the size of the image on the about page for the screen*/
+    #aboutImg {
+        max-width: 80vw;
     }
 }
