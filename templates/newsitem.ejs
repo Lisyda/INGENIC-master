@@ -25,12 +25,12 @@
 <!--END OF NAVIGATION BAR-->
 
 <!--NEWS ITEM-->
-<br />
+<br/>
 <div class="container">
     <article>
         <header>
             <h1 class="menu"><%= item.title %></h1>
-            <br />
+            <br/>
             <time datetime="<%= item.datetime %>"><%= item.artdate %></time>
         </header>
         <figure>
@@ -38,7 +38,7 @@
         </figure>
         <%- item.text %>
     </article>
-    <a href="javascript:history.go(-1)">Go back</a>
+    <a href="/news">Go back</a>
 </div>
 
 <!--INCLUDE FOOTER FROM EJS FOOTER-->
