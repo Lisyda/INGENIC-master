@@ -7,7 +7,7 @@ var news = [
         title: '3rd Workshop on Gender Equality in CS at Third Level',
         artdate: '5 February 2019',
         datetime: '2019-02-05',
-        image: '/images/IngenicMeeting3.jpg',
+        image: '/images/meetup.jpg',
         alttext: 'Third INGENIC meeting',
         text: '<p>The Irish Network for Gender Equality in Computing (INGENIC) held its 3rd meeting in DCU on Friday 11th' +
             '            January. The meeting was chaired by Dr. Monica Ward from the School of Computing, DCU. The group is composed' +
@@ -187,8 +187,8 @@ app.get('/resources', function (req, res) {
 
 
 //UNIVERSITIES INVOLVED
-app.get('/universities', function (req, res) {
-    res.render('universities');
+app.get('/institutions', function (req, res) {
+    res.render('institutions');
 });
 
 //CURRENT COURSES
