@@ -128,3 +128,8 @@ a, a:hover {
         max-width: 80vw;
     }
 }
+
+/*change the position of the cards on the institutions page*/
+.cards{
+    margin-top: 10%;
+}
