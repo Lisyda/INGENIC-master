@@ -30,7 +30,7 @@
     <% for (var i = 0; i < newslinks.length; i++) { %>
         <div class="row mt-3">
             <% for (var j = 0; j < newslinks[i].length; j++) { %>
-                <div class="col-sm">
+                <div class="col-12 col-sm-6 col-lg-3">
                     <div class="card text-center mx-auto" style="width: 15rem; height:18rem;">
                         <a href="news/<%= newslinks[i][j] %>">
                             <div id="newsimg"><img src="<%= item[i][j].image %>" class="card-img-top"
