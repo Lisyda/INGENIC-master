@@ -35,8 +35,8 @@ var news = [
             '            2018.</p>',
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news2',
+        title: 'Sample News 2',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/news1.jpg',
@@ -49,8 +49,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news3',
+        title: 'Sample News 3',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/image3.jpg',
@@ -63,8 +63,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news4',
+        title: 'Sample News 4',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/news3.jpg',
@@ -77,8 +77,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     }],
     [{
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news5',
+        title: 'Sample News 5',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/news4.jpg',
@@ -91,8 +91,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news6',
+        title: 'Sample News 6',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/image1.jpg',
@@ -105,8 +105,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news7',
+        title: 'Sample News 7',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/news2.jpg',
@@ -119,8 +119,8 @@ var news = [
             '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
     },
     {
-        id: 'sample-news',
-        title: 'Sample News',
+        id: 'sample-news8',
+        title: 'Sample News 8',
         artdate: '25 March 2019',
         datetime: '2019-03-25',
         image: '/images/image2.jpg',
@@ -134,7 +134,34 @@ var news = [
     }]
 ];
 
-var newslinks = [["ingenic-third-meeting", "sample-news", "sample-news", "sample-news"], ["sample-news", "sample-news", "sample-news", "sample-news"]];
+//ADDING NEW NEWS
+//For each new article, fill out the template below and add it (with the brackets) to the above array called news.
+//The structure of the array is that news get added in groups of four with the following brackets system:
+//  {[{group1-1}, {group1-2}, {group1-3}, {group1-4}],[{group2-1}, {group2-2}, {group2-3}, {group2-4}], etc.}
+/*
+{
+        id: 'sample-news',              //The link route to the news item page of this piece of news. Same as the one in the newslinks array
+        title: 'Sample News',           //The title of the article
+        artdate: '25 March 2019',       //Date published in written format
+        datetime: '2019-03-25',         //Date published in numeric format
+        image: '/images/image3.jpg',    //Route to the image to be added to the article
+        alttext: 'Sample Alt',          //The alt text for the image
+        text: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu purus eu ex lacinia dignissim' +
+            '                efficitur ut justo. Phasellus orci nisl, euismod ac porttitor vitae, cursus sit amet ante. Praesent sit amet' +
+            '                tempor est. Phasellus nibh quam, aliquet a luctus eleifend, blandit a tortor. Suspendisse eros purus,' +
+            '                egestas dignissim justo eget, tincidunt porttitor dolor. Suspendisse lectus erat, mattis vel augue eu,' +
+            '                vulputate sodales urna. Fusce ac porta sapien. Sed finibus nunc a mi vehicula mattis. Maecenas tincidunt,' +
+            '                velit vitae gravida tempor, nulla arcu elementum lectus, at viverra nunc nisl mattis quam.</p>'
+
+            //The content/text of the article with HTML tags.
+    },      //The comma is only needed if this article is not the last one in the array
+*/
+
+//ADDING NEW NEWS VOL 2
+//Once a new article has been added to the array news, take the id value of the new article and add it to the array below called newslinks.
+//Newslinks follows the same system as news, where everything is added in groups of four, but has a slightly different brackets system:
+//  {[group1-link1, group1-link2, group1-link3, group1-link4],[group2-link1, group2-link2, group2-link3, group2-link4], etc.}
+var newslinks = [["ingenic-third-meeting", "sample-news2", "sample-news3", "sample-news4"], ["sample-news5", "sample-news6", "sample-news7", "sample-news8"]];
 
 //require
 var express = require("express");
