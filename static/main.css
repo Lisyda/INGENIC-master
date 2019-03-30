@@ -54,6 +54,10 @@ iframe {
     transition-duration: 0.4s;
 }
 
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+
 /*LINES*/
 .rectangle {
     height: 15px;
