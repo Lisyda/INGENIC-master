@@ -20,6 +20,11 @@
     height: auto;
 }
 
+/*Remove borders from any iframe elements on the website*/
+iframe {
+    border: none;
+}
+
 /*NAVBAR CUSTOMISATION*/
 
 #customLink1, #customLink2, #customLink3, #customLink4, #customLink5, #customLink6 {
