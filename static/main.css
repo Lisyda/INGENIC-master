@@ -134,23 +134,12 @@ a, a:hover {
     margin-top: 10%;
 }
 
-/*Carousel controls*/
-.carousel-control-prev {
-    background-color: #411B46;
-    width: revert;
-    height: 5%;
-    margin-top: 25%;
+/*CAROUSEL ARROWS*/
 
-
-
+.fa-chevron-left{
+    color: black;
 }
 
-.carousel-control-next {
-    background-color:  #411B46;
-    height: 5%;
-    margin-top: 25%;
-    width: revert;
-
-
-
+.fa-chevron-right{
+    color: black;
 }
