@@ -34,16 +34,14 @@
                     <div class="card text-center mx-auto" style="width: 15rem; height:18rem;">
                         <a href="news/<%= newslinks[i][j] %>">
                             <div class="newsimg"><img src="<%= item[i][j].image %>" class="card-img-top" alt="<%= item[i][j].alttext %>"></div>
+                            <div class="card-body"><h5 class="card-title"><%= item[i][j].title %></h5>
                         </a>
-                        <div class="card-body">
-                            <a href="news/<%= newslinks[i][j] %>"><h5 class="card-title"><%= item[i][j].title %></h5>
-                            </a>
-                        </div>
                     </div>
                 </div>
-            <% } %>
         </div>
-    <% } %>
+        <% } %>
+</div>
+<% } %>
 </div>
 
 <!--INCLUDE FOOTER FROM EJS FOOTER-->
