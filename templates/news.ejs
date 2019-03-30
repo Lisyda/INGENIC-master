@@ -33,9 +33,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="card text-center mx-auto" style="width: 15rem; height:18rem;">
                         <a href="news/<%= newslinks[i][j] %>">
-                            <div id="newsimg"><img src="<%= item[i][j].image %>" class="card-img-top"
-                                                   alt="<%= item[i][j].alttext %>"">
-                            </div>
+                            <div class="newsimg"><img src="<%= item[i][j].image %>" class="card-img-top" alt="<%= item[i][j].alttext %>"></div>
                         </a>
                         <div class="card-body">
                             <a href="news/<%= newslinks[i][j] %>"><h5 class="card-title"><%= item[i][j].title %></h5>
