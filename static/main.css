@@ -130,7 +130,7 @@ a, a:hover {
 
 @media screen and (max-width: 1000px) {
     /* Remove the borders from the menu */
-    #customLink {
+    #customLink1, #customLink2, #customLink3, #customLink4, #customLink5, #customLink6 {
         border: none;
     }
     /*Configures the size of the image on the about page for the screen*/
