@@ -11,4 +11,7 @@ For the correct design to be added to each link in the header, special IDs, not 
 
 With a few exceptions (i.e. some colours), the look of the website is all built with Bootstrap. Any changes to the structure, layout, sizing etc of the website must be made using Bootstrap classes, which use an external Bootstrap CSS.
 
+The contact page is a placeholder page. The content can be replaced before this website goes live.
+The news page has one news item of INGENIC and the rest of the content on that page are placeholders to demonstrate what the page will look like when multiple news items will be added in the future.
+
 The current version of the website uses Bootstrap 4.3.1
